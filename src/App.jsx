@@ -3,6 +3,7 @@ import Home from "./components/home/Home";
 import Selector from "./components/projects/Selector";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
+import Certificates from "./components/certificates/Certificates";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </section>
       <section>
         <Selector />
+      </section>
+      <section>
+        <Certificates />
       </section>
       <section>
         <Footer />
