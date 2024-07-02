@@ -1,6 +1,5 @@
 // import { useContext } from "react";
 import DescriptionCard from "./DescriptionCard";
-import DescreptionCard from "./DescriptionCard";
 import ImageCard from "./ImageCard";
 import "./Selector.css";
 
