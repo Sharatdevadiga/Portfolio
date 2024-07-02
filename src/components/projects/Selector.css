@@ -1,0 +1,164 @@
+/* MOVIE SELECTOR */
+.card {
+  position: relative;
+  display: inline-block;
+  width: 40rem;
+  border-radius: 11px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 1)
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover::after {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card-title {
+  position: absolute;
+  opacity: 0;
+  font-size: 1.6rem;
+  color: #888;
+  text-align: center;
+  bottom: 2%;
+  width: 100%;
+  padding: 0 0.8rem;
+  transition: opacity 0.3s;
+  z-index: 5;
+}
+
+.card:hover .card-title {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.96);
+}
+
+.card-container {
+  gap: 20rem;
+  padding: 14rem 1.2rem;
+  min-height: 250px;
+  width: 90%;
+  flex-wrap: wrap;
+  background-color: #111;
+  border-radius: 24px;
+}
+
+.card-div {
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+}
+
+.card-div:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.card-transform {
+  transition: all 0.5s;
+}
+
+.card-div:nth-child(odd) .card-transform {
+  transform: perspective(20px) rotatey(1deg);
+}
+
+.card-div:nth-child(even) .card-transform {
+  transform: perspective(20px) rotatey(-1deg);
+}
+
+.card-transform:hover {
+  transform: perspective(20px) rotatey(0deg) !important;
+}
+
+.cardSelector-container {
+  padding: 8rem 2.4rem;
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.selected {
+  box-shadow: 0 0 10px var(--brand-color-light1);
+  transform: scale(0.96);
+}
+
+.card-description {
+  width: 44rem;
+  line-height: 1.7;
+  font-size: 1.4rem;
+
+  opacity: 0.7;
+  opacity: 0.9;
+}
+
+.description-text {
+  opacity: 0.7;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.4rem 0 1.6rem 0;
+}
+
+.tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.card-links {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+  text-decoration: none;
+}
+
+.card-link {
+  padding: 0.4rem 1.6rem !important;
+  border-radius: 2rem;
+  border: 2px solid var(--brand-color-dark2) !important;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1062px) {
+  body .card-div:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .card-container {
+    padding: 8rem 2.4rem;
+    width: 100%;
+  }
+}

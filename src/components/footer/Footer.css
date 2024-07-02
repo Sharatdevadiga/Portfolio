@@ -1,0 +1,35 @@
+/* FOOTER */
+.footer {
+  height: 24rem;
+  opacity: 0.7;
+  text-align: center;
+  border-top: 2px solid var(--brand-color-dark2);
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.social-link-container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-link {
+  font-size: 4.8rem;
+  opacity: 0.7;
+  transition: all 0.3s;
+  height: 6.4rem;
+}
+
+.icon-label {
+  font-size: 1rem;
+}
+.social-link:hover {
+  opacity: 1;
+}
+
+.social-link-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
