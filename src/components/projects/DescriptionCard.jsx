@@ -2,10 +2,10 @@
 import { FaCode } from "react-icons/fa6";
 import { FaGlobe } from "react-icons/fa";
 
-function DescriptionCard({ project }) {
+function DescriptionCard({ project, index }) {
   return (
     <div className="card-description">
-      <h2>{project.title}</h2>
+      <h2>{`${index + 1}. ${project.title}`}</h2>
       <p className="description-text">{project.description}</p>
 
       <div className="tags">

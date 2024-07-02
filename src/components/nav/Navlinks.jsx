@@ -1,9 +1,10 @@
 import smoothScrollTo from "../../util/smoothScroll";
 
 // eslint-disable-next-line react/prop-types
-function Navlinks() {
+function Navlinks({ closeHam }) {
   const handleClick = (id) => {
     smoothScrollTo(id, 1000);
+    closeHam();
   };
 
   return (

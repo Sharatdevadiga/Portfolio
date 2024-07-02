@@ -5,7 +5,7 @@ function ImageCard({ project }) {
   }
   return (
     <div className="card card-transform" onClick={() => handleClick()}>
-      <img src={project.image} alt={project.title} />
+      <img src={project.image} alt={project.title} loading="lazy" />
       <h3 className="card-title">GO to Live Project</h3>
     </div>
   );

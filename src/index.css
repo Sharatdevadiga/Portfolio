@@ -175,6 +175,8 @@ body {
 
   body .heading-secondary {
     font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
   }
 
   body .heading-tertiary {
@@ -223,6 +225,9 @@ body {
 
   body .prevBooking-container {
     width: 90%;
+  }
+  body .skill-card {
+    padding: 0.4rem;
   }
 }
 

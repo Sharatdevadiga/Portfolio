@@ -7,10 +7,10 @@ import "./Selector.css";
 // import { bookingContext } from "../../App";
 
 /* eslint-disable react/prop-types */
-function Card({ project }) {
+function Card({ project, index }) {
   return (
     <div className="card-div flex-h-center ">
-      <DescriptionCard project={project} />
+      <DescriptionCard project={project} index={index} />
       <ImageCard project={project} />
     </div>
   );

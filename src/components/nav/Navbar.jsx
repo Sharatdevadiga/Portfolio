@@ -7,12 +7,12 @@ import { IoClose } from "react-icons/io5";
 function Navbar() {
   const [isHamOpen, setIsHamOpen] = useState(false);
 
-  const handleHamClick = () => {
-    setIsHamOpen((isHamOpen) => !isHamOpen);
-  };
-
   const closeHam = () => {
     setIsHamOpen(false);
+  };
+
+  const handleHamClick = () => {
+    setIsHamOpen((isHamOpen) => !isHamOpen);
   };
 
   return (

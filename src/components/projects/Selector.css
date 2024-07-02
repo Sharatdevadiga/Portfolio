@@ -158,7 +158,18 @@
   }
 
   .card-container {
-    padding: 8rem 2.4rem;
+    padding: 3.2rem 2.4rem 6.4rem 2.4rem;
     width: 100%;
+    gap: 9.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .card-div:nth-child(odd) .card-transform {
+    transform: perspective(20px) rotatey(0deg);
+  }
+
+  body .card-div:nth-child(even) .card-transform {
+    transform: perspective(20px) rotatey(0deg);
   }
 }
