@@ -13,6 +13,8 @@ import { SiRedux, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FiServer } from "react-icons/fi";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const skills = [
   { name: "HTML", icon: AiOutlineHtml5, ariaLabel: "HTML5" },
@@ -27,6 +29,8 @@ const skills = [
   { name: "Express", icon: FiServer, ariaLabel: "Express" },
   { name: "Node.js", icon: FaNodeJs, ariaLabel: "Node.js" },
   { name: "SQL", icon: BiLogoPostgresql, ariaLabel: "SQL" },
+  { name: "Git", icon: FaGitAlt, ariaLabel: "Git" },
+  { name: "GitHub", icon: FaGithub, ariaLabel: "GitHub" },
 ];
 
 function Skills() {
