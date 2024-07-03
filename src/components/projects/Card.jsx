@@ -6,11 +6,11 @@ import "./Selector.css";
 // import { bookingContext } from "../../App";
 
 /* eslint-disable react/prop-types */
-function Card({ project, index }) {
+function Card({ project, index, type }) {
   return (
     <div className="card-div flex-h-center ">
       <DescriptionCard project={project} index={index} />
-      <ImageCard project={project} />
+      <ImageCard project={project} type={type} />
     </div>
   );
 }

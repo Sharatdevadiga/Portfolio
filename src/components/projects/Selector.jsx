@@ -18,6 +18,8 @@ function Selector() {
       container.addEventListener("wheel", handleScroll, { passive: false });
     }
 
+    if (!container) return;
+
     return () => {
       if (container) {
         container.removeEventListener("wheel", handleScroll);
@@ -51,7 +53,12 @@ function Selector() {
           ref={otherProjectContainerRef}
         >
           {otherProjects.map((project, index) => (
-            <Card key={index} index={index} project={project}></Card>
+            <Card
+              type="straight"
+              key={index}
+              index={index}
+              project={project}
+            ></Card>
           ))}
         </div>
       </div>
