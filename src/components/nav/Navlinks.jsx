@@ -15,6 +15,9 @@ function Navlinks({ closeHam }) {
       <button className="nav-button" onClick={() => handleClick("projects")}>
         projects
       </button>
+      <button className="nav-button" onClick={() => handleClick("about")}>
+        About me
+      </button>
       <a
         className="nav-button"
         href="https://docs.google.com/document/d/1niwV97HRGa8R50QrNiKC8_S_rIcEEiPweiwrIrJiXlM/edit?usp=sharing"
@@ -24,7 +27,7 @@ function Navlinks({ closeHam }) {
       </a>
       <button
         className="nav-button button-cta"
-        onClick={() => handleClick("footer")}
+        onClick={() => handleClick("contact")}
       >
         Contact
       </button>

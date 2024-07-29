@@ -14,13 +14,15 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FiServer } from "react-icons/fi";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const skills = [
   { name: "HTML", icon: AiOutlineHtml5, ariaLabel: "HTML5" },
   { name: "CSS", icon: FaCss3, ariaLabel: "CSS3" },
   { name: "JavaScript", icon: IoLogoJavascript, ariaLabel: "JavaScript" },
   { name: "React", icon: FaReact, ariaLabel: "React" },
+  { name: "Next.js", icon: RiNextjsFill, ariaLabel: "nextJs" },
   { name: "Redux", icon: SiRedux, ariaLabel: "Redux" },
   { name: "Tailwind", icon: RiTailwindCssFill, ariaLabel: "Tailwind CSS" },
   { name: "Bootstrap", icon: FaBootstrap, ariaLabel: "Bootstrap" },
@@ -30,7 +32,7 @@ const skills = [
   { name: "Node.js", icon: FaNodeJs, ariaLabel: "Node.js" },
   { name: "SQL", icon: BiLogoPostgresql, ariaLabel: "SQL" },
   { name: "Git", icon: FaGitAlt, ariaLabel: "Git" },
-  { name: "GitHub", icon: FaGithub, ariaLabel: "GitHub" },
+  // { name: "GitHub", icon: FaGithub, ariaLabel: "GitHub" },
 ];
 
 function Skills() {

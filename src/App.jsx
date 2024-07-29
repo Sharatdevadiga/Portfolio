@@ -4,6 +4,8 @@ import Selector from "./components/projects/Selector";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
 import Certificates from "./components/certificates/Certificates";
+import About from "./components/about/About";
+import Contact from "./components/contactForm/Contact";
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
       </section>
       <section>
         <Certificates />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Contact />
       </section>
       <section>
         <Footer />

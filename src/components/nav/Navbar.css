@@ -3,11 +3,12 @@
   position: fixed;
   padding: 0.8rem 0;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(10px);
+  background-color: #0000009c;
+  backdrop-filter: blur(20px);
 }
 
 .nav {
