@@ -20,7 +20,7 @@ function Navlinks({ closeHam }) {
       </button>
       <a
         className="nav-button"
-        href="https://docs.google.com/document/d/1niwV97HRGa8R50QrNiKC8_S_rIcEEiPweiwrIrJiXlM/edit?usp=sharing"
+        href="https://docs.google.com/document/d/1k9g79yP7gntQS8wxfcD88VLYUIoUm9YBlRamOUivllY/edit?usp=sharing"
         target="_blank"
       >
         Resume

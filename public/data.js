@@ -1,8 +1,24 @@
 const mainProjectsData = [
   {
+    title: "Entertainment App",
+    description:
+      "Developed a responsive web app for watching trailers, browsing and searching a database of 100,000+ entries, and adding bookmarks, with authentication.  schema design and RESTful API. ",
+    image: `./mainProjectImages/Entertainment-App.jpg`,
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "MongoDB",
+      "Express",
+      "Git",
+    ],
+    link: "https://entertainment-app-sandy.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/entertainment-app.git",
+  },
+  {
     title: "Crypto Dashboard",
     description:
-      "A dashboard to track the prices of cryptocurrencies and visualize the data using charts. The project design was inspired by a design on Almabetter.",
+      "Crafted a React app to fetch and visualize JSON data for 100+ cryptocurrencies, displaying real-time prices and 300+ days of history with React charts with a responsive UI using Tailwind and Redux Toolkit.",
     image: `./mainProjectImages/Crypto-Dashboard.jpg`,
     tags: ["React", "Tailwind CSS", "react-chartjs-2", "Redux Toolkit"],
     link: "https://crypto-dashboard-sharath.netlify.app",
@@ -12,7 +28,7 @@ const mainProjectsData = [
   {
     title: "Book My Show - Booking page",
     description:
-      "A website to book movie tickets with REST API integration. Every aspect of the project was built from scratch, including its design, API, front end, and back end.",
+      "A website to book movie tickets with REST API. Every aspect of the project was built from scratch, including its design, API, front end, and back end.",
     image: "./mainProjectImages/Book-My-Show.jpg",
     tags: ["React", "CSS", "Express", "MongoDB", "Mongoose"],
     link: "https://book-my-show-nine-psi.vercel.app/",
@@ -20,13 +36,32 @@ const mainProjectsData = [
   },
 
   {
-    title: "Pizza Ordering Web App",
+    title: "Wild Oasis",
     description:
-      'A website to order pizza. This project is part of the "Ultimate React Course" by Jonas Schmedtmann.',
-    image: "./mainProjectImages/Pizza-Ordering.jpg",
-    tags: ["React", "CSS"],
-    link: "https://react-pizza-ordering-app.vercel.app/",
-    gitHub: "https://github.com/Sharatdevadiga/React-Pizza-Menu.git",
+      "Created an internal hotel booking management web app with React, Styled Components, React Query, and Recharts, managing 14+ cabins. Implemented Supabase for backend, authentication, and authorization",
+    image: "./mainProjectImages/Wild-Oasis.png",
+    tags: ["React", "styled-components", "React-query", "supaase"],
+    link: "https://react-wild-oasis-omega.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/React-wild-Oasis.git",
+  },
+
+  {
+    title: "Wild Oasis- Customer website",
+    description:
+      "Built an SEO-optimized Next.js full-stack customer site for cabin bookings (14+ options) with RSC architecture, Supabase, and OAuth-based login/signup.",
+    image: "./mainProjectImages/Wild-Oasis-Customer.jpg",
+    tags: ["Next.js", "styled-components", "supaase"],
+    link: "https://react-wild-oasis-omega.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/React-wild-Oasis.git",
+  },
+  {
+    title: "NPM package (open source)",
+    description:
+      "Published an NPM package featuring a collection of 7 essential React hooks, simplifying tasks such as data fetching, form handling, debouncing, and throttling",
+    image: `./mainProjectImages/Npm-Package.png`,
+    tags: ["React"],
+    link: "https://www.npmjs.com/package/react-hooks-fundamental",
+    gitHub: "https://github.com/Sharatdevadiga/React-fundamental-hooks.git",
   },
 
   {
@@ -37,16 +72,6 @@ const mainProjectsData = [
     tags: ["JavaScript", "Express", "MongoDB", "Mongoose", "Pug"],
     link: "https://natours-u57k.onrender.com/",
     gitHub: "https://github.com/Sharatdevadiga/natours.git",
-  },
-
-  {
-    title: "Pokemon Search Web App",
-    description:
-      "A website to search for Pokémon. This project was completely built from scratch, including its design and development.",
-    image: "./mainProjectImages/Pokemon-Search.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    link: "https://pokemon-search-app-sharath.vercel.app/",
-    gitHub: "https://github.com/Sharatdevadiga/Pokemon-search-app.git",
   },
 
   {
@@ -67,6 +92,25 @@ const mainProjectsData = [
     tags: ["HTML", "SASS", "JavaScript", "Bootstrap"],
     link: "https://corso-website-mu.vercel.app/",
     gitHub: "https://github.com/Sharatdevadiga/Bootstrap-corso-website.git",
+  },
+  {
+    title: "Pokemon Search Web App",
+    description:
+      "A website to search for Pokémon. This project was completely built from scratch, including its design and development.",
+    image: "./mainProjectImages/Pokemon-Search.jpg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://pokemon-search-app-sharath.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/Pokemon-search-app.git",
+  },
+
+  {
+    title: "Pizza Ordering Web App",
+    description:
+      'A website to order pizza. This project is part of the "Ultimate React Course" by Jonas Schmedtmann.',
+    image: "./mainProjectImages/Pizza-Ordering.jpg",
+    tags: ["React", "CSS"],
+    link: "https://react-pizza-ordering-app.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/React-Pizza-Menu.git",
   },
 ];
 
@@ -300,17 +344,25 @@ const otherProjects = [
 
 const certificates = [
   {
+    title: "Fullstack web development",
+    image: "./certificateImages/almabetter.png",
+  },
+  {
     title: "Responsive Web Design",
     image: "./certificateImages/responsive-webDesign.png",
   },
-  { title: "Javascript", image: "./certificateImages/javascript.jpg" },
   { title: "HTML-CSS", image: "./certificateImages/html-css.jpg" },
-  { title: "React", image: "./certificateImages/reactjs.png" },
+  { title: "Javascript", image: "./certificateImages/javascript.jpg" },
+
+  { title: "React", image: "./certificateImages/React-HackerRank.png" },
+  {
+    title: "React, Next.js, Redux and More",
+    image: "./certificateImages/React-Next.jpg",
+  },
   {
     title: "Node, express and MongoDb",
     image: "./certificateImages/Node-Express-Mongodb.jpg",
   },
-  { title: "javascript DSA masterclass", image: "./certificateImages/DSA.jpg" },
   {
     title: "Problem solving",
     image: "./certificateImages/Problem-solving.jpg",
