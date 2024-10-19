@@ -51,8 +51,8 @@ const mainProjectsData = [
       "Built an SEO-optimized Next.js full-stack customer site for cabin bookings (14+ options) with RSC architecture, Supabase, and OAuth-based login/signup.",
     image: "./mainProjectImages/Wild-Oasis-Customer.jpg",
     tags: ["Next.js", "styled-components", "supaase"],
-    link: "https://react-wild-oasis-omega.vercel.app/",
-    gitHub: "https://github.com/Sharatdevadiga/React-wild-Oasis.git",
+    link: "https://nextjs-wild-oasis-website.vercel.app/",
+    gitHub: "https://github.com/Sharatdevadiga/Nextjs-wildOasis-website.git",
   },
   {
     title: "NPM package (open source)",
